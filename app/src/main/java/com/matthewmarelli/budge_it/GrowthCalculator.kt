@@ -8,7 +8,6 @@ class GrowthCalculator (var monthlyIncome: Double, var monthlyExpenses : Double,
     fun calculateNetIncome() : String {
         netMonthlyIncome = monthlyIncome - monthlyExpenses
         val myText = "Net Monthly Income: " + netMonthlyIncome
-        
         return myText
     }
 
